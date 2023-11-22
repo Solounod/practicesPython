@@ -14,6 +14,6 @@ def fibonacci(n):
         b = aux
     return list_fib
 
-
+number_input = int(input("Ingresa un numero: "))
 print(fibonacci(10))
 

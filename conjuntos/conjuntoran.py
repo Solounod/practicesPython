@@ -1,4 +1,5 @@
 import random
+""" Script determina cuantos numeros se repiten dentro de un conjunto y devuelve la cantidad de numeros repetidos """ 
 
 set_major = set()
 list_set1 = []
