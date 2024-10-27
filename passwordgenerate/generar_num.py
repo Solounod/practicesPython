@@ -10,7 +10,7 @@ lista_num = []
 def numero():
     while True:
         try:
-            cantidad = int(input("Ingrese la cantidad de caracteres de la contraceña: "))
+            cantidad = int(input("Ingrese la cantidad de caracteres de la contraseña: "))
             break
         except (ValueError, NameError):
             print("Ese caracter no es correcto")
@@ -25,7 +25,7 @@ def numero():
 def letras():
     while True:
         try:
-            cantidad = int(input("Ingrese la cantidad de caracteres de la contraceña: "))
+            cantidad = int(input("Ingrese la cantidad de caracteres de la contraseña: "))
             break
         except (ValueError, NameError):
             print("Ese caracter no es correcto")
@@ -38,11 +38,11 @@ def letras():
     print(contracena)
 
 
-print("############Generador de contarceñas##############")
+print("############Generador de contarseñas##############")
 print()
 print("=======Menu======")
-print("1_Generar contaceña de numeros")
-print("2_Generar contraceña de letras")
+print("1_Generar contaseña de numeros")
+print("2_Generar contraseña de letras")
 opcion = input("Ingrese la opcion: ")
 if opcion == "1":
     numero()
